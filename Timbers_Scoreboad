@@ -3,17 +3,21 @@ public class IfElseIf {
 
 		int HomeScore = 1000;
     
-    int AwayScore = 1000;
+    		int AwayScore = 1000;
 
 		if (HomeScore > AwayScore) {
 
 			System.out.println("The Timbers are winning!");
 
-		} else if (HomeScore < AwayScore) {
+		} 
+		
+		else if (HomeScore < AwayScore) {
 
 			System.out.println("Same as it ever was...");
 
-		}	else {
+		}	
+		
+		else {
 
 			System.out.println("It's all level here at Providence Park");
 
